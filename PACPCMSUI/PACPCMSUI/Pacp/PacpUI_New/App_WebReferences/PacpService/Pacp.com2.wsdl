@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://Pacp.com" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://Pacp.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://Pacp.com/Imports">
+      <xsd:import namespace="http://Pacp.com" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPacp_GetAllAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAllAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAlertById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertById" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAlertById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_InsertAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAlert" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_InsertAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetInsertAlertResponse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInsertAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetInsertAlertResponse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInsertAlertResponseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_UpdateAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAlert" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_UpdateAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetUpdateAlertResponse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUpdateAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetUpdateAlertResponse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUpdateAlertResponseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_DeleteAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAlert" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_DeleteAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetDeleteAlertResponse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeleteAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetDeleteAlertResponse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeleteAlertResponseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAllAbout_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAbout" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAllAbout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAboutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAboutById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAboutById" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAboutById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAboutByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_InsertAbout_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAbout" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_InsertAbout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAboutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_UpdateAbout_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAbout" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_UpdateAbout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAboutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_DeleteAbout_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAbout" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_DeleteAbout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAboutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_ForgotPwd_InputMessage">
+    <wsdl:part name="parameters" element="tns:ForgotPwd" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_ForgotPwd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ForgotPwdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAllUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllUsers" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAllUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetUserById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserById" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetUserById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetUserByNamePwd_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserByNamePwd" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetUserByNamePwd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserByNamePwdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_InsertUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUser" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_InsertUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_getAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_getAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAllDevices_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDevices" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetAllDevices_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDevicesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetDevicesByType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesByType" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetDevicesByType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesByTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetDevice_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevice" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_GetDevice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_insertDevice_InputMessage">
+    <wsdl:part name="parameters" element="tns:insertDevice" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_insertDevice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insertDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_updateDevice_InputMessage">
+    <wsdl:part name="parameters" element="tns:updateDevice" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_updateDevice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_deleteDevice_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteDevice" />
+  </wsdl:message>
+  <wsdl:message name="IPacp_deleteDevice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteDeviceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPacp">
+    <wsdl:operation name="GetAllAlerts">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetAllAlerts" message="tns:IPacp_GetAllAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetAllAlertsResponse" message="tns:IPacp_GetAllAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertById">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetAlertById" message="tns:IPacp_GetAlertById_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetAlertByIdResponse" message="tns:IPacp_GetAlertById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertAlert">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/InsertAlert" message="tns:IPacp_InsertAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/InsertAlertResponse" message="tns:IPacp_InsertAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInsertAlertResponse">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetInsertAlertResponse" message="tns:IPacp_GetInsertAlertResponse_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetInsertAlertResponseResponse" message="tns:IPacp_GetInsertAlertResponse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAlert">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/UpdateAlert" message="tns:IPacp_UpdateAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/UpdateAlertResponse" message="tns:IPacp_UpdateAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdateAlertResponse">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetUpdateAlertResponse" message="tns:IPacp_GetUpdateAlertResponse_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetUpdateAlertResponseResponse" message="tns:IPacp_GetUpdateAlertResponse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAlert">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/DeleteAlert" message="tns:IPacp_DeleteAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/DeleteAlertResponse" message="tns:IPacp_DeleteAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeleteAlertResponse">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetDeleteAlertResponse" message="tns:IPacp_GetDeleteAlertResponse_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetDeleteAlertResponseResponse" message="tns:IPacp_GetDeleteAlertResponse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAbout">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetAllAbout" message="tns:IPacp_GetAllAbout_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetAllAboutResponse" message="tns:IPacp_GetAllAbout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAboutById">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetAboutById" message="tns:IPacp_GetAboutById_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetAboutByIdResponse" message="tns:IPacp_GetAboutById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertAbout">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/InsertAbout" message="tns:IPacp_InsertAbout_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/InsertAboutResponse" message="tns:IPacp_InsertAbout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAbout">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/UpdateAbout" message="tns:IPacp_UpdateAbout_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/UpdateAboutResponse" message="tns:IPacp_UpdateAbout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAbout">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/DeleteAbout" message="tns:IPacp_DeleteAbout_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/DeleteAboutResponse" message="tns:IPacp_DeleteAbout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ForgotPwd">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/ForgotPwd" message="tns:IPacp_ForgotPwd_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/ForgotPwdResponse" message="tns:IPacp_ForgotPwd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllUsers">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetAllUsers" message="tns:IPacp_GetAllUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetAllUsersResponse" message="tns:IPacp_GetAllUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserById">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetUserById" message="tns:IPacp_GetUserById_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetUserByIdResponse" message="tns:IPacp_GetUserById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserByNamePwd">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetUserByNamePwd" message="tns:IPacp_GetUserByNamePwd_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetUserByNamePwdResponse" message="tns:IPacp_GetUserByNamePwd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/InsertUser" message="tns:IPacp_InsertUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/InsertUserResponse" message="tns:IPacp_InsertUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/UpdateUser" message="tns:IPacp_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/UpdateUserResponse" message="tns:IPacp_UpdateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/DeleteUser" message="tns:IPacp_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/DeleteUserResponse" message="tns:IPacp_DeleteUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAlerts">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/getAlerts" message="tns:IPacp_getAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/getAlertsResponse" message="tns:IPacp_getAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDevices">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetAllDevices" message="tns:IPacp_GetAllDevices_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetAllDevicesResponse" message="tns:IPacp_GetAllDevices_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesByType">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetDevicesByType" message="tns:IPacp_GetDevicesByType_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetDevicesByTypeResponse" message="tns:IPacp_GetDevicesByType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevice">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/GetDevice" message="tns:IPacp_GetDevice_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/GetDeviceResponse" message="tns:IPacp_GetDevice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insertDevice">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/insertDevice" message="tns:IPacp_insertDevice_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/insertDeviceResponse" message="tns:IPacp_insertDevice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updateDevice">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/updateDevice" message="tns:IPacp_updateDevice_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/updateDeviceResponse" message="tns:IPacp_updateDevice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteDevice">
+      <wsdl:input wsaw:Action="http://Pacp.com/IPacp/deleteDevice" message="tns:IPacp_deleteDevice_InputMessage" />
+      <wsdl:output wsaw:Action="http://Pacp.com/IPacp/deleteDeviceResponse" message="tns:IPacp_deleteDevice_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

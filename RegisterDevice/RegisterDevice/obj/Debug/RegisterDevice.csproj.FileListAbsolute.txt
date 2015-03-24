@@ -1,0 +1,6 @@
+D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\bin\RegisterDevice.dll
+D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\bin\RegisterDevice.pdb
+D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\bin\log4net.dll
+D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\bin\log4net.xml
+D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\obj\Debug\RegisterDevice.dll
+D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\obj\Debug\RegisterDevice.pdb

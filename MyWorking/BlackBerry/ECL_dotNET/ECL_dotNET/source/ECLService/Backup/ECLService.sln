@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECLService", "ECLService.csproj", "{2D8C2C48-887D-4366-9270-E2F8C826BC10}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ECLServiceSetup", "ECLServiceSetup\ECLServiceSetup.vdproj", "{E21804D2-AB47-4F41-A636-9BFC994BBD8D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2D8C2C48-887D-4366-9270-E2F8C826BC10}.Debug.ActiveCfg = Debug|.NET
+		{2D8C2C48-887D-4366-9270-E2F8C826BC10}.Debug.Build.0 = Debug|.NET
+		{2D8C2C48-887D-4366-9270-E2F8C826BC10}.Release.ActiveCfg = Release|.NET
+		{2D8C2C48-887D-4366-9270-E2F8C826BC10}.Release.Build.0 = Release|.NET
+		{E21804D2-AB47-4F41-A636-9BFC994BBD8D}.Debug.ActiveCfg = Debug
+		{E21804D2-AB47-4F41-A636-9BFC994BBD8D}.Debug.Build.0 = Debug
+		{E21804D2-AB47-4F41-A636-9BFC994BBD8D}.Release.ActiveCfg = Release
+		{E21804D2-AB47-4F41-A636-9BFC994BBD8D}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

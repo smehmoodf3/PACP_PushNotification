@@ -1,0 +1,8 @@
+D:\PacpSarimLatest\PACP Service\WCFTest\bin\Debug\WCFTest.exe.config
+D:\PacpSarimLatest\PACP Service\WCFTest\bin\Debug\WCFTest.exe
+D:\PacpSarimLatest\PACP Service\WCFTest\bin\Debug\WCFTest.pdb
+D:\PacpSarimLatest\PACP Service\WCFTest\obj\x86\Debug\WCFTest.exe
+D:\PacpSarimLatest\PACP Service\WCFTest\obj\x86\Debug\WCFTest.pdb
+E:\Folio3\Repositiories\Pacp\PACP Service\WCFTest\bin\Debug\WCFTest.exe.config
+E:\Folio3\Repositiories\Pacp\PACP Service\WCFTest\obj\x86\Debug\WCFTest.exe
+E:\Folio3\Repositiories\Pacp\PACP Service\WCFTest\obj\x86\Debug\WCFTest.pdb

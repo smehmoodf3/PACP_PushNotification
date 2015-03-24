@@ -1,0 +1,31 @@
+<loader version="1.0">
+	<application id="EmergencyContactList">
+		<name >
+			Emergency Contact List
+		</name>
+		<description >
+			Emergency Contact List Application
+		</description>
+		<version >
+			2.3
+		</version>
+		<vendor >
+			Research In Motion
+		</vendor>
+		<copyright >
+			Copyright (c) 2006 Research In Motion
+		</copyright>
+		<fileset Java="1.24">
+			<directory >
+				
+			</directory>
+			<files >
+				EmergencyContactList.cod
+
+			</files>
+
+		</fileset>
+
+	</application>
+
+</loader>

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PAP", "http://localhost/PAP/PAP.csproj", "{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PAPInstallation", "PAPInstallation\PAPInstallation.vdproj", "{F909F9EB-EC73-44CC-BB7D-D4DF13149B38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}.Debug|Default.ActiveCfg = Release|.NET
+		{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}.Debug|Default.Build.0 = Release|.NET
+		{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}.Release|Default.ActiveCfg = Release|.NET
+		{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}.Release|Default.Build.0 = Release|.NET
+		{F909F9EB-EC73-44CC-BB7D-D4DF13149B38}.Debug|Default.ActiveCfg = Debug
+		{F909F9EB-EC73-44CC-BB7D-D4DF13149B38}.Release|Default.ActiveCfg = Release
+		{F909F9EB-EC73-44CC-BB7D-D4DF13149B38}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

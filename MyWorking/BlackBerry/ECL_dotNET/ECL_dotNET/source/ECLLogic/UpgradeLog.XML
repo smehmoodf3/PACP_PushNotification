@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ECLlogic">
+</Property><Property Name="Solution File" Value="E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\ECLlogic.sln">
+</Property><Property Name="User Options File" Value="E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\ECLlogic.suo">
+</Property><Property Name="Date" Value="Friday, March 13, 2015">
+</Property><Property Name="Time" Value="15:14 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ECLlogic.sln" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\ECLlogic.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ECLlogic.suo" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\ECLlogic.suo">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="ECLLogic.csproj" Description="Project file successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\ECLLogic.csproj">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="ECLLogic.csproj.user" Description="Project user file successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\ECLLogic.csproj.user">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="BrowserChannelPusher.cs" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\BrowserChannelPusher.cs">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="CustomAppPusher.cs" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\CustomAppPusher.cs">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="DataReader.cs" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\DataReader.cs">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="ECLLogic.cs" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\ECLLogic.cs">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="Pusher.cs" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLLogic\Backup\Pusher.cs">
+</Event><Event ErrorLevel="1" Project="ECLLogic" Source="ECLLogic.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="ECLLogic.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ECLLogic" Source="ECLLogic.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ECLlogic.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ECLlogic.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ECLLogic" Source="ECLLogic.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

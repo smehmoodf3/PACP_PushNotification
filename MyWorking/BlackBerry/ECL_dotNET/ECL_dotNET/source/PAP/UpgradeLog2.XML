@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PAP">
+</Property><Property Name="Solution File" Value="E:\Folio3\Repositiories\Pacp\MyWorking\BlackBerry\ECL_dotNET\ECL_dotNET\source\PAP\PAP.sln">
+</Property><Property Name="User Options File" Value="E:\Folio3\Repositiories\Pacp\MyWorking\BlackBerry\ECL_dotNET\ECL_dotNET\source\PAP\PAP.suo">
+</Property><Property Name="Date" Value="Wednesday, March 18, 2015">
+</Property><Property Name="Time" Value="17:20 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PAP.sln" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\BlackBerry\ECL_dotNET\ECL_dotNET\source\PAP\Backup\PAP.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PAP.suo" Description="File successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\BlackBerry\ECL_dotNET\ECL_dotNET\source\PAP\Backup\PAP.suo">
+</Event><Event ErrorLevel="1" Project="PAP" Source="http://localhost/PAP/PAP.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="http://localhost/PAP/PAP.csproj" Source="http://localhost/PAP/PAP.csproj" Description="ERROR: Failed to back up Web site http://localhost/PAP">
+</Event><Event ErrorLevel="0" Project="PAPInstallation.vdproj" Source="PAPInstallation\PAPInstallation.vdproj" Description="Project file successfully backed up as E:\Folio3\Repositiories\Pacp\MyWorking\BlackBerry\ECL_dotNET\ECL_dotNET\source\PAP\Backup\PAPInstallation\PAPInstallation.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="PAP.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PAP.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PAPInstallation.vdproj" Source="PAPInstallation\PAPInstallation.vdproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PAPInstallation.vdproj" Source="PAPInstallation\PAPInstallation.vdproj" Description="Converted">
+</Event></UpgradeLog>

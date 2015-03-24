@@ -1,0 +1,965 @@
+log4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\543b9706_f61dd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\21bff332_961ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\409bdd58_ad1ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\409bdd58_ad1ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\cd07e5fd\9b566a72\assembly\dl3\08a9d78e\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\cd07e5fd\9b566a72\assembly\dl3\f2db6d5a\409bdd58_ad1ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [M] Option [] Format [min=18,max=18,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ - ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: RollingFileAppender: Searched for existing files in [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice]
+log4net: RollingFileAppender: curSizeRollBackups starts at [0]
+log4net: FileAppender: Opening file for writing [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\PacpLog.txt] append [True]
+log4net: XmlHierarchyConfigurator: Created Appender [RollingLogFileAppender]
+log4net: XmlHierarchyConfigurator: Adding appender named [RollingLogFileAppender] to logger [root].
+log4net: XmlHierarchyConfigurator: Hierarchy Threshold []
+log4net: ConfigureAndWatchHandler: Changed [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: ConfigureAndWatchHandler: Changed [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLogTest.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [M] Option [] Format [min=18,max=18,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ - ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=Falselog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\cd07e5fd\9b566a72\assembly\dl3\08a9d78e\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\cd07e5fd\9b566a72\assembly\dl3\f2db6d5a\74fa34af_352ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLogTest.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParserlog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\cd07e5fd\9b566a72\assembly\dl3\08a9d78e\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\cd07e5fd\9b566a72\assembly\dl3\f2db6d5a\0197a3d2_362ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\cd07e5fd\9b566a72\assembly\dl3\08a9d78e\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\cd07e5fd\9b566a72\assembly\dl3\f2db6d5a\5121eae4_372ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\38279f4b_402ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\38279f4b_402ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\38279f4b_402ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\38279f4b_402ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\38279f4b_402ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\38279f4b_402ed001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\1165e878\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.17929] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c4481b7d\4b368767\assembly\dl3\b67ea883\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [D:\users\ibaig\documents\visual studio 2010\Projects\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Colog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Users\smehmood.FOLIO3PK\AppData\Local\Temp\Temporary ASP.NET Files\root\cd558854\f773b75e\assembly\dl3\9536570e\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.18063] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\smehmood.FOLIO3PK\AppData\Local\Temp\Temporary ASP.NET Files\root\cd558854\f773b75e\assembly\dl3\cb48d5d9\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [E:\Folio3\Repositiories\Pacp\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [E:\Folio3\Repositiories\Pacp\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [M] Option [] Format [min=18,max=18,leftlog4net: log4net assembly [log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821]. Loaded from [C:\Users\smehmood.FOLIO3PK\AppData\Local\Temp\Temporary ASP.NET Files\root\cd558854\f773b75e\assembly\dl3\9536570e\004a328a_5912c801\log4net.dll]. (.NET Runtime [4.0.30319.18063] on Microsoft Windows NT 6.1.7601 Service Pack 1)
+log4net: DefaultRepositorySelector: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository for assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\smehmood.FOLIO3PK\AppData\Local\Temp\Temporary ASP.NET Files\root\cd558854\f773b75e\assembly\dl3\cb48d5d9\c39e38e5_563cd001\RegisterDevice.dll]
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: DefaultRepositorySelector: Assembly [RegisterDevice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: DefaultRepositorySelector: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [E:\Folio3\Repositiories\Pacp\RegisterDevice\RegisterDevice\Web.config] watching for file updates
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using file [E:\Folio3\Repositiories\Pacp\RegisterDevice\RegisterDevice\Web.config]
+log4net: XmlConfigurator: configuring repository [log4net-default-repository] using stream
+log4net: XmlConfigurator: loading XML configuration
+log4net: XmlConfigurator: Configuring Repository [log4net-default-repository]
+log4net: XmlHierarchyConfigurator: Configuration update mode [Merge].
+log4net: XmlHierarchyConfigurator: Logger [root] Level string is [DEBUG].
+log4net: XmlHierarchyConfigurator: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: XmlHierarchyConfigurator: Loading Appender [RollingLogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: XmlHierarchyConfigurator: Setting Property [File] to String value [PacpLog.txt]
+log4net: XmlHierarchyConfigurator: Setting Property [AppendToFile] to Boolean value [True]
+log4net: XmlHierarchyConfigurator: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: XmlHierarchyConfigurator: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: XmlHierarchyConfigurator: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: XmlHierarchyConfigurator: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: PatternParser: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: XmlHierarchyConfigurator: Setting Property [ConversionPattern] to String value [%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n]
+log4net: PatternParser: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [d] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [r] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [literal] Option [ms ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [c] Option [1] Format [min=22,max=22,leftAlign=True]
+log4net: PatternParser: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: PatternParser: Converter [M] Option [] Format [min=18,max=18,left

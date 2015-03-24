@@ -1,0 +1,2 @@
+E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLService\bin\Release\ECLService.exe.config
+E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\ECLService\obj\Release\ECLService.exe

@@ -1,0 +1,47 @@
+## RIM Java Development Environment
+# RIM Project file
+AlwaysBuild=0
+[AlxImports
+]
+AutoRestart=0
+[BuildOnlyFiles
+]
+[ClassProtection
+]
+[CustomBuildFiles
+]
+[CustomBuildRules
+]
+[DefFiles
+]
+[DependencyFiles
+]
+[DependsOn
+]
+ExcludeFromBuildAll=0
+[Files
+src\DataStore.java
+src\ECLApplication.java
+src\PushedDataListener.java
+]
+HaveAlxImports=0
+HaveDefs=0
+HaveImports=0
+[Icons
+]
+[Imports
+]
+Listing=0
+NoImport=0
+NoRuntime=0
+Options=-quiet
+OutputFileName=ECLContactList
+[PackageProtection
+]
+RibbonPosition=0
+RunOnStartup=1
+StartupTier=7
+SystemModule=1
+Title=Emergency Contact List
+Type=0
+Version=1.0

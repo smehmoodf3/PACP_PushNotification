@@ -1,0 +1,24 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost/MobileCMSService">
+    <file relUrl="Pacp.PacpService.svc" publishTime="01/07/2015 14:05:55" />
+    <file relUrl="bin/log4net.dll" publishTime="01/01/2015 18:21:44" />
+    <file relUrl="bin/Pacp.dll" publishTime="01/07/2015 15:53:46" />
+    <file relUrl="Web.config" publishTime="12/25/2014 14:38:14" />
+    <file relUrl="bin/Pacp.pdb" publishTime="01/07/2015 15:53:46" />
+    <file relUrl="bin/Pacp.dll.config" publishTime="12/25/2014 14:38:14" />
+  </publishTarget>
+  <publishTarget publishUrl="http://192.168.5.140:8890/Service1">
+    <file relUrl="bin/Pacp.dll" publishTime="11/14/2014 15:44:19" />
+    <file relUrl="Pacp.PacpService.svc" publishTime="11/14/2014 15:44:46" />
+    <file relUrl="bin/Pacp.dll.config" publishTime="11/14/2014 15:41:53" />
+    <file relUrl="Web.config" publishTime="11/14/2014 15:41:53" />
+    <file relUrl="bin/Pacp.pdb" publishTime="11/14/2014 15:44:19" />
+  </publishTarget>
+  <publishTarget publishUrl="http://192.168.5.140:8890/">
+    <file relUrl="bin/Pacp.dll" publishTime="11/14/2014 15:27:44" />
+    <file relUrl="Pacp.PacpService.svc" publishTime="11/14/2014 15:41:59" />
+    <file relUrl="bin/Pacp.dll.config" publishTime="11/14/2014 15:41:53" />
+    <file relUrl="Web.config" publishTime="11/14/2014 15:41:53" />
+    <file relUrl="bin/Pacp.pdb" publishTime="11/14/2014 15:27:44" />
+  </publishTarget>
+</publishData>

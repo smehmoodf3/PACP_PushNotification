@@ -1,0 +1,10 @@
+http://azure.microsoft.com/en-us/documentation/articles/mobile-services-javascript-backend-windows-universal-dotnet-get-started-push/
+
+
+https://msdn.microsoft.com/en-us/library/windows/apps/hh913756.aspx
+
+
+https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh868252.aspx
+
+
+https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh868206.aspx

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7b170459-e358-47be-8399-3d4b4d76b27e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/MobileCMSService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Pacp.com.wsdl" MetadataType="Wsdl" ID="14135700-43e0-4b32-900b-619027d1f6b9" SourceId="1" SourceUrl="http://localhost/MobileCMSService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="35adf48c-965e-4c7a-882b-d9dce3334425" SourceId="1" SourceUrl="http://localhost/MobileCMSService/mex" />
+    <MetadataFile FileName="Pacp.com.xsd" MetadataType="Schema" ID="8fec3050-c9e3-47d4-911d-0e51968cfc9e" SourceId="1" SourceUrl="http://localhost/MobileCMSService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="93cbd56f-9040-4b58-b528-f3ad073b705e" SourceId="1" SourceUrl="http://localhost/MobileCMSService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

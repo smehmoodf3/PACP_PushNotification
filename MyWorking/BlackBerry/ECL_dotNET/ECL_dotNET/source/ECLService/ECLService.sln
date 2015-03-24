@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECLService", "ECLService.csproj", "{2D8C2C48-887D-4366-9270-E2F8C826BC10}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ECLServiceSetup", "ECLServiceSetup\ECLServiceSetup.vdproj", "{E21804D2-AB47-4F41-A636-9BFC994BBD8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D8C2C48-887D-4366-9270-E2F8C826BC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8C2C48-887D-4366-9270-E2F8C826BC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8C2C48-887D-4366-9270-E2F8C826BC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8C2C48-887D-4366-9270-E2F8C826BC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21804D2-AB47-4F41-A636-9BFC994BBD8D}.Debug|Any CPU.ActiveCfg = Debug
+		{E21804D2-AB47-4F41-A636-9BFC994BBD8D}.Debug|Any CPU.Build.0 = Debug
+		{E21804D2-AB47-4F41-A636-9BFC994BBD8D}.Release|Any CPU.ActiveCfg = Release
+		{E21804D2-AB47-4F41-A636-9BFC994BBD8D}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,548 @@
+DEBUG 2015-01-12 13:19:23,127 10447ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-12 13:19:23,476 10796ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-12 13:19:23,979 11299ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-12 13:19:24,187 11507ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-12 13:19:36,670 23990ms DeviceRegister         AddDevice          - There was no endpoint listening at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+ERROR 2015-01-12 13:19:59,663 46982ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8732
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+ERROR 2015-01-12 13:19:59,668 46987ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8732
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+DEBUG 2015-01-12 13:22:51,015 218334ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-12 13:22:51,522 218841ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-12 13:22:52,387 219706ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-12 13:22:53,164 220484ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-12 13:22:57,598 224917ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 38 devices returned
+DEBUG 2015-01-12 13:23:04,912 232232ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-01-12 13:23:12,054 239373ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-01-12 13:34:32,037 919356ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-12 13:34:32,455 919774ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-12 13:34:33,947 921267ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-12 13:34:34,750 922070ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-12 13:34:39,020 926339ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-12 13:34:40,325 927644ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-12 13:37:31,615 1098934ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-12 13:37:32,107 1099426ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-12 13:37:33,729 1101049ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-12 13:37:34,227 1101547ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-12 13:37:37,560 1104879ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 38 devices returned
+DEBUG 2015-01-12 13:38:01,124 1128443ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-12 13:38:14,646 1141966ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-12 13:38:43,387 1170707ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-12 13:40:56,702 1304022ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-12 13:40:57,237 1304556ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-12 13:40:58,006 1305325ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-12 13:40:58,470 1305789ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-12 13:43:10,972 1438291ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 39 devices returned
+DEBUG 2015-01-12 13:43:18,094 1445413ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-12 13:43:24,151 1451471ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-12 13:43:29,461 1456780ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-12 13:45:31,249 1578568ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-12 13:45:31,504 1578823ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-12 13:45:31,929 1579248ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-12 13:45:32,138 1579457ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-12 13:46:22,063 1629382ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 40 devices returned
+DEBUG 2015-01-12 13:46:23,781 1631101ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-12 13:46:23,782 1631102ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-12 13:46:23,876 1631196ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-12 13:47:22,420 1689739ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-12 13:47:22,919 1690239ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-12 13:47:24,822 1692142ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-12 13:47:25,758 1693078ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-12 13:48:54,448 1781768ms DeviceRegister         AddDevice          - The request channel timed out while waiting for a reply after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+ERROR 2015-01-12 13:48:58,060 1785379ms DeviceRegister         AddDevice          - InnerException: {0}
+System.TimeoutException: The HTTP request to 'http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/' has exceeded the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout. ---> System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+ERROR 2015-01-12 13:49:01,359 1788678ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-12 13:51:24,953 1932273ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-12 13:51:25,329 1932649ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-12 13:51:26,057 1933377ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-12 13:51:26,536 1933856ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-12 13:51:43,115 1950435ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 41 devices returned
+DEBUG 2015-01-12 13:51:46,909 1954229ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-12 13:51:46,910 1954230ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-12 13:51:46,933 1954253ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-15 10:41:14,914    55ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-15 10:41:14,931    72ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-15 10:41:14,940    81ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-15 10:41:14,940    81ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-15 10:41:14,996   137ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-15 10:41:14,996   137ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-15 11:29:30,522    45ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-15 11:29:30,529    52ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-15 11:29:30,535    58ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-15 11:29:30,536    59ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-15 11:29:30,613   136ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 42 devices returned
+DEBUG 2015-01-15 11:29:30,614   137ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-15 11:29:30,614   137ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-15 11:29:30,654   177ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-21 18:15:13,277   108ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-21 18:15:13,357   188ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-21 18:15:13,404   235ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-21 18:15:13,404   235ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-21 18:15:13,956   787ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 43 devices returned
+DEBUG 2015-01-21 18:15:13,957   788ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-01-21 18:15:13,957   788ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-01-21 18:35:38,501 1225331ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-21 18:35:38,502 1225332ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-21 18:35:38,502 1225332ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-21 18:35:38,502 1225332ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-21 18:35:38,543 1225373ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-21 18:35:38,544 1225374ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-28 15:46:19,485    69ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-28 15:46:19,578   162ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-28 15:46:19,625   209ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-28 15:46:19,625   209ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-28 15:46:20,070   654ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-28 15:46:20,071   655ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-28 15:48:20,807 121391ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-28 15:48:20,809 121393ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-28 15:48:20,809 121393ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-28 15:48:20,809 121393ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-28 15:48:20,835 121419ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-28 15:48:20,835 121419ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:26:40,959    37ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:26:40,968    46ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:26:40,975    53ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:26:40,975    53ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:26:41,033   111ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:26:41,033   111ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:26:59,448 18526ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:26:59,448 18526ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:26:59,449 18527ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:26:59,449 18527ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:26:59,463 18541ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:26:59,463 18541ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:27:24,521 43599ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:27:24,522 43600ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:27:24,522 43600ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:27:24,523 43601ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:27:24,533 43611ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:27:24,534 43612ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:29:14,326 153404ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:29:14,326 153404ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:29:14,327 153405ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:29:14,327 153405ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:29:14,357 153435ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:29:14,357 153435ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:29:21,742 160819ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:29:21,742 160819ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:29:21,742 160819ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:29:21,742 160819ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:29:21,753 160830ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:29:21,753 160830ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:31:03,165 262242ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:31:03,166 262243ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:31:03,166 262243ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:31:03,167 262244ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:31:04,141 263219ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:31:04,142 263220ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:31:44,799 303877ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:31:44,799 303877ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:31:44,800 303878ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:31:44,800 303878ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:31:46,181 305259ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:31:46,181 305259ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:32:20,910 339987ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:32:20,911 339988ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:32:20,911 339988ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:32:20,911 339988ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:32:24,349 343427ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:32:24,349 343427ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:32:44,505 363583ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:32:44,505 363583ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:32:44,506 363584ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:32:44,506 363584ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 11:32:44,525 363603ms DeviceRegister         AddDevice          - The HTTP service located at http://localhost:8732/Design_Time_Addresses/Pacp/PacpService/ is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+ERROR 2015-01-30 11:32:44,525 363603ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 11:35:32,875  1617ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:35:32,893  1635ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:35:32,903  1645ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:35:32,903  1645ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 11:35:34,722  3464ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 43 devices returned
+DEBUG 2015-01-30 11:35:36,401  5143ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-30 11:35:36,402  5144ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-30 11:35:36,803  5545ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-30 11:41:39,092 367833ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 11:41:39,092 367833ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 11:41:39,093 367834ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 11:41:39,093 367834ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 11:41:39,572 368313ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 44 devices returned
+DEBUG 2015-01-30 11:41:40,886 369627ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-30 11:41:40,886 369627ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-30 11:41:40,933 369674ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-30 12:04:28,461 1737203ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:04:28,461 1737203ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:04:28,461 1737203ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:04:28,462 1737204ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 12:04:29,269 1738010ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:04:29,269 1738010ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:04:29,269 1738010ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:04:29,270 1738011ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 12:04:31,201 1739942ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:04:31,201 1739942ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:04:31,206 1739947ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:04:31,206 1739947ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 12:04:31,313 1740054ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 45 devices returned
+DEBUG 2015-01-30 12:04:31,985 1740727ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 45 devices returned
+DEBUG 2015-01-30 12:04:31,991 1740733ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 45 devices returned
+DEBUG 2015-01-30 12:05:58,873 1827615ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-30 12:05:58,874 1827616ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-30 12:06:20,345 1849086ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-30 12:06:20,345 1849086ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-30 12:06:20,348 1849089ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-30 12:06:20,349 1849090ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-30 12:06:20,384 1849125ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-30 12:06:20,517 1849258ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-30 12:06:21,043 1849784ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: System.Data.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK__Pacp_tbl__6EF588300CBAE877'. Cannot insert duplicate key in object 'dbo.Pacp_tbl_Registered_Devices'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Mapping.Update.Internal.DynamicUpdateCommand.Execute(UpdateTranslator translator, EntityConnection connection, Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   --- End of inner exception stack trace ---
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Objects.ObjectContext.SaveChanges()
+   at Pacp.PacpService.insertDevice(Device device) in D:\PacpSarimLatest\PACP Service\Pacp\PacpService.cs:line 847
+DEBUG 2015-01-30 12:06:58,611 1887353ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:06:58,611 1887353ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:06:58,611 1887353ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:06:58,612 1887354ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 12:06:58,690 1887432ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 47 devices returned
+DEBUG 2015-01-30 12:06:59,299 1888040ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-01-30 12:07:00,397 1889138ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-01-30 12:15:22,334 2391076ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:15:22,334 2391076ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:15:22,335 2391077ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:15:22,336 2391078ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 12:15:22,741 2391483ms DeviceRegister         AddDevice          - There was no endpoint listening at http://localhost/MobileCMSService/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+ERROR 2015-01-30 12:15:22,741 2391483ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 12:15:48,208 2416950ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:15:48,208 2416950ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:15:48,208 2416950ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:15:48,209 2416951ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 12:15:48,596 2417338ms DeviceRegister         AddDevice          - There was no endpoint listening at http://localhost/MobileCMSService/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+ERROR 2015-01-30 12:15:48,597 2417339ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 12:16:04,122 2432864ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:16:04,123 2432865ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:16:04,123 2432865ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:16:04,123 2432865ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 12:16:05,472 2434214ms DeviceRegister         AddDevice          - There was no endpoint listening at http://localhost/MobileCMSService/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+ERROR 2015-01-30 12:16:05,473 2434215ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 12:16:14,293 2443035ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:16:14,293 2443035ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:16:14,294 2443036ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:16:14,294 2443036ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-01-30 12:16:15,479 2444221ms DeviceRegister         AddDevice          - There was no endpoint listening at http://localhost/MobileCMSService/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+ERROR 2015-01-30 12:16:15,480 2444222ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-01-30 12:16:36,799 2465541ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:16:36,799 2465541ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:16:36,800 2465542ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:16:36,800 2465542ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 12:16:37,918 2466660ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 47 devices returned
+DEBUG 2015-01-30 12:16:38,435 2467177ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-01-30 12:16:39,431 2468172ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-01-30 12:18:10,494 2559235ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:18:10,495 2559236ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:18:10,495 2559236ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:18:10,495 2559236ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 12:18:10,589 2559330ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 47 devices returned
+DEBUG 2015-01-30 12:18:11,999 2560741ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-30 12:18:11,999 2560741ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-30 12:18:12,116 2560858ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-01-30 12:20:58,010 2726752ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-01-30 12:20:58,011 2726753ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-01-30 12:20:58,011 2726753ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-01-30 12:20:58,011 2726753ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-01-30 12:20:58,462 2727204ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 48 devices returned
+DEBUG 2015-01-30 12:20:58,462 2727204ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-01-30 12:20:58,463 2727205ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-01-30 12:20:58,483 2727225ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-03-18 13:21:21,061 99249ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 13:21:21,135 99323ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 13:21:21,150 99338ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 13:21:21,151 99339ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 13:21:21,706 99894ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 49 devices returned
+DEBUG 2015-03-18 13:21:21,706 99894ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-03-18 13:21:21,706 99894ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-03-18 13:21:21,729 99917ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-03-18 13:25:13,884 332072ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 13:25:13,898 332086ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 13:25:13,899 332087ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 13:25:13,899 332087ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 13:25:14,343 332531ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 50 devices returned
+DEBUG 2015-03-18 13:25:14,343 332531ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-03-18 13:25:14,343 332531ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-03-18 13:25:14,360 332548ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-03-18 13:31:38,736 716924ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 13:31:38,737 716925ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 13:31:38,737 716925ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 13:31:38,737 716925ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 13:31:39,181 717369ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 51 devices returned
+DEBUG 2015-03-18 13:31:39,182 717370ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 13:31:39,182 717370ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 13:36:11,106 989294ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 13:36:11,106 989294ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 13:36:11,106 989294ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 13:36:11,107 989295ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 13:36:11,550 989738ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 51 devices returned
+DEBUG 2015-03-18 13:36:11,550 989738ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 13:36:11,550 989738ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 13:49:16,480 1774668ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 13:49:16,480 1774668ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 13:49:16,480 1774668ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 13:49:16,480 1774668ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 13:49:16,933 1775121ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 51 devices returned
+DEBUG 2015-03-18 13:49:16,934 1775122ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 13:49:16,934 1775122ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 13:56:57,443 2235631ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 13:56:57,444 2235632ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 13:56:57,444 2235632ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 13:56:57,445 2235633ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-03-18 13:57:57,486 2295674ms DeviceRegister         AddDevice          - Client is unable to finish the security negotiation within the configured timeout (00:00:59.9980000).  The current negotiation leg is 1 (00:00:59.9980000).  
+ERROR 2015-03-18 13:57:57,486 2295674ms DeviceRegister         AddDevice          - InnerException: {0}
+System.TimeoutException: The request channel timed out while waiting for a reply after 00:00:59.9850000. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout. ---> System.TimeoutException: The HTTP request to 'http://localhost/MobileCMSService/' has exceeded the allotted timeout of 00:00:59.9980000. The time allotted to this operation may have been a portion of a longer timeout. ---> System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+ERROR 2015-03-18 13:57:57,491 2295679ms DeviceRegister         AddDevice          - InnerException: {0}
+System.TimeoutException: The HTTP request to 'http://localhost/MobileCMSService/' has exceeded the allotted timeout of 00:00:59.9980000. The time allotted to this operation may have been a portion of a longer timeout. ---> System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+ERROR 2015-03-18 13:57:57,491 2295679ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-03-18 13:58:19,423 2317611ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 13:58:19,423 2317611ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 13:58:19,423 2317611ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 13:58:19,424 2317612ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+ERROR 2015-03-18 13:59:19,442 2377630ms DeviceRegister         AddDevice          - Client is unable to finish the security negotiation within the configured timeout (00:00:59.9990000).  The current negotiation leg is 1 (00:00:59.9980000).  
+ERROR 2015-03-18 13:59:19,442 2377630ms DeviceRegister         AddDevice          - InnerException: {0}
+System.TimeoutException: The request channel timed out while waiting for a reply after 00:00:59.9910000. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout. ---> System.TimeoutException: The HTTP request to 'http://localhost/MobileCMSService/' has exceeded the allotted timeout of 00:00:59.9980000. The time allotted to this operation may have been a portion of a longer timeout. ---> System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+ERROR 2015-03-18 13:59:19,443 2377631ms DeviceRegister         AddDevice          - InnerException: {0}
+System.TimeoutException: The HTTP request to 'http://localhost/MobileCMSService/' has exceeded the allotted timeout of 00:00:59.9980000. The time allotted to this operation may have been a portion of a longer timeout. ---> System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+ERROR 2015-03-18 13:59:19,443 2377631ms DeviceRegister         AddDevice          - InnerException: {0}
+System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+DEBUG 2015-03-18 14:49:20,609    33ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 14:49:20,624    48ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 14:49:20,631    55ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 14:49:20,631    55ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 14:49:21,129   553ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 51 devices returned
+DEBUG 2015-03-18 14:49:21,129   553ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 14:49:21,129   553ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 15:11:46,030    35ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 15:11:46,037    42ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 15:11:46,043    48ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 15:11:46,044    49ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 15:11:46,513   518ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 51 devices returned
+DEBUG 2015-03-18 15:11:46,513   518ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-03-18 15:11:46,514   519ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-03-18 15:11:46,532   537ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-03-18 15:38:02,657    36ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 15:38:02,664    43ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 15:38:02,671    50ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 15:38:02,671    50ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 15:38:03,173   552ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 52 devices returned
+DEBUG 2015-03-18 15:38:03,174   553ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 15:38:03,174   553ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 15:56:30,529 1107908ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 15:56:30,530 1107909ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 15:56:30,531 1107910ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 15:56:30,531 1107910ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 15:56:30,996 1108375ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 52 devices returned
+DEBUG 2015-03-18 15:56:30,997 1108376ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 15:56:30,997 1108376ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 16:22:49,651    36ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 16:22:49,657    42ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 16:22:49,669    54ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 16:22:49,670    55ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 16:22:50,180   565ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 52 devices returned
+DEBUG 2015-03-18 16:22:50,180   565ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 16:22:50,180   565ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 16:33:50,911 661296ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 16:33:50,913 661298ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 16:33:50,913 661298ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 16:33:50,913 661298ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 16:33:51,358 661743ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 52 devices returned
+DEBUG 2015-03-18 16:33:51,359 661744ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-03-18 16:33:51,359 661744ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-03-18 16:33:51,376 661761ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-03-18 16:36:42,560 832945ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 16:36:42,561 832946ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 16:36:42,561 832946ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 16:36:42,561 832946ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 16:36:42,999 833384ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 53 devices returned
+DEBUG 2015-03-18 16:36:42,999 833384ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-03-18 16:36:42,999 833384ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-03-18 16:36:43,015 833400ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-03-18 16:42:07,534 1157919ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 16:42:07,535 1157920ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 16:42:07,535 1157920ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 16:42:07,535 1157920ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 16:42:07,979 1158364ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 54 devices returned
+DEBUG 2015-03-18 16:42:07,980 1158365ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 16:42:07,980 1158365ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 16:43:08,435 1218820ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 16:43:08,436 1218821ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 16:43:08,436 1218821ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 16:43:08,436 1218821ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 16:43:08,507 1218892ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 54 devices returned
+DEBUG 2015-03-18 16:43:08,507 1218892ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 16:43:08,507 1218892ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 16:45:44,620 1375005ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 16:45:44,621 1375006ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 16:45:44,621 1375006ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 16:45:44,622 1375007ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 16:45:45,114 1375499ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 54 devices returned
+DEBUG 2015-03-18 16:45:45,115 1375500ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 16:45:45,115 1375500ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-18 19:23:39,284    35ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-18 19:23:39,291    42ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-18 19:23:39,298    49ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-18 19:23:39,298    49ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-18 19:23:39,798   549ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 54 devices returned
+DEBUG 2015-03-18 19:23:39,799   550ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-18 19:23:39,799   550ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-19 16:39:00,969    57ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-19 16:39:01,004    92ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-19 16:39:01,035   123ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-19 16:39:01,035   123ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-19 16:39:01,548   636ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 54 devices returned
+DEBUG 2015-03-19 16:39:01,549   637ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-19 16:39:01,549   637ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-19 17:31:58,435    32ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-19 17:31:58,442    39ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-19 17:31:58,449    46ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-19 17:31:58,449    46ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-19 17:31:58,990   587ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 54 devices returned
+DEBUG 2015-03-19 17:31:58,990   587ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-19 17:31:58,990   587ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-19 19:12:19,616    38ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-19 19:12:19,623    45ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-19 19:12:19,630    52ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-19 19:12:19,630    52ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-19 19:12:20,727  1149ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 54 devices returned
+DEBUG 2015-03-19 19:12:20,727  1149ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-03-19 19:12:20,728  1150ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-03-19 19:12:20,812  1234ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered
+DEBUG 2015-03-19 21:25:58,996 204335ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-19 21:25:59,020 204359ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-19 21:25:59,029 204368ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-19 21:25:59,030 204369ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-19 21:25:59,548 204887ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 55 devices returned
+DEBUG 2015-03-19 21:25:59,548 204887ms DeviceRegister         AddDevice          - Found the Device
+DEBUG 2015-03-19 21:25:59,549 204888ms DeviceRegister         AddDevice          - Device already Registered
+DEBUG 2015-03-19 21:26:11,633 216972ms DeviceRegister         AddDevice          - AddDevice() called. Starting Execution
+DEBUG 2015-03-19 21:26:11,633 216972ms DeviceRegister         AddDevice          - Creating PacpClient
+DEBUG 2015-03-19 21:26:11,633 216972ms DeviceRegister         AddDevice          - PacpClient created.
+DEBUG 2015-03-19 21:26:11,634 216973ms DeviceRegister         AddDevice          - Calling PacpClient.GetAllDevices()
+DEBUG 2015-03-19 21:26:11,719 217058ms DeviceRegister         AddDevice          - PacpClient.GetAllDevices() Called, Total 55 devices returned
+DEBUG 2015-03-19 21:26:11,720 217059ms DeviceRegister         AddDevice          - Device Not Found. Adding to DeviceList in database
+DEBUG 2015-03-19 21:26:11,720 217059ms DeviceRegister         AddDevice          - Calling PacpClient.insertDevice()
+DEBUG 2015-03-19 21:26:11,837 217176ms DeviceRegister         AddDevice          - PacpClient.insertDevice() Called, meesage: Device is Successfully Registered

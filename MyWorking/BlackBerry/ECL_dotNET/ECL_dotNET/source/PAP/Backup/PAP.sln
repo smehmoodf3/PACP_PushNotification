@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAP", "http://localhost/PAP/PAP.csproj", "{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PAPInstallation", "PAPInstallation\PAPInstallation.vdproj", "{F909F9EB-EC73-44CC-BB7D-D4DF13149B38}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}.Debug.ActiveCfg = Release|.NET
+		{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}.Debug.Build.0 = Release|.NET
+		{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}.Release.ActiveCfg = Release|.NET
+		{2D598A7C-2700-4C70-AFD5-BFB6A63F0A8A}.Release.Build.0 = Release|.NET
+		{F909F9EB-EC73-44CC-BB7D-D4DF13149B38}.Debug.ActiveCfg = Debug
+		{F909F9EB-EC73-44CC-BB7D-D4DF13149B38}.Release.ActiveCfg = Release
+		{F909F9EB-EC73-44CC-BB7D-D4DF13149B38}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

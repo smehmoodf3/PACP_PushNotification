@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PAP">
+</Property><Property Name="Solution File" Value="E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\PAP\PAP.sln">
+</Property><Property Name="Date" Value="Friday, March 13, 2015">
+</Property><Property Name="Time" Value="15:26:06 PM">
+</Property></Properties><Event ErrorLevel="2" Project="E:\Folio3\Repositiories\Pacp\MyWorking\ECL_dotNET\ECL_dotNET\source\PAP\PAP.csproj" Source="PAP.csproj" Description="To access local IIS Web sites, you must run Visual Studio in the context of an administrator account. &#xA;&#xA;For more information, press F1.">
+</Event><Event ErrorLevel="2" Project="" Source="PAP.csproj" Description="The operation could not be completed. Access is denied. ">
+</Event></UpgradeLog>

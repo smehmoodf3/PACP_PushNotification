@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECL", "http://localhost/ECL/ECL.csproj", "{0272A04A-0377-45BF-B673-5223B1E82DF0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EmergencyContactListWeb", "EmergencyContactListWeb\EmergencyContactListWeb.vdproj", "{471149D2-678C-4FA2-88DC-B184C29B407A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0272A04A-0377-45BF-B673-5223B1E82DF0}.Debug.ActiveCfg = Debug|.NET
+		{0272A04A-0377-45BF-B673-5223B1E82DF0}.Debug.Build.0 = Debug|.NET
+		{0272A04A-0377-45BF-B673-5223B1E82DF0}.Release.ActiveCfg = Release|.NET
+		{0272A04A-0377-45BF-B673-5223B1E82DF0}.Release.Build.0 = Release|.NET
+		{471149D2-678C-4FA2-88DC-B184C29B407A}.Debug.ActiveCfg = Debug
+		{471149D2-678C-4FA2-88DC-B184C29B407A}.Debug.Build.0 = Debug
+		{471149D2-678C-4FA2-88DC-B184C29B407A}.Release.ActiveCfg = Release
+		{471149D2-678C-4FA2-88DC-B184C29B407A}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

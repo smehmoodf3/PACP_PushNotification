@@ -1,0 +1,471 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{B88B1225-A81A-4A0E-99A3-5FF83EB9A673}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "ECL_GUI"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "ECL_GUI"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "ECLLogic"
+                    AssemblyName = "ECLLogic"
+                    HintPath = "..\ECLLogic\bin\Release\ECLLogic.dll"
+                />
+                <Reference
+                    Name = "PAPLogic"
+                    AssemblyName = "PAPLogic"
+                    HintPath = "..\ECLLogic\bin\Release\PAPLogic.dll"
+                />
+                <Reference
+                    Name = "log4net"
+                    AssemblyName = "log4net"
+                    HintPath = "..\ECLLogic\bin\Release\log4net.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ECL_GUI.sln"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PushDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PushDialog.resx"
+                    DependentUpon = "PushDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "sampledata.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "user.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xyzlist.mdb"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "xyzlist.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xyzlist.xls"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "CodeCommentReport\banner.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\banner.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\CodeCommentReportError.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\commentreport.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\darkcorner.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\gradleft.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\gradtop.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\graycorner.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\minus.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\plus.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\Solution_ECL_GUI.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\titletile.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP0.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP10.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP11.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP12.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP13.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP14.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP15.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP16.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP17.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP18.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP19.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP2.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP20.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP21.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP22.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP23.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP24.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP25.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP26.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP27.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP28.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP29.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP3.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP30.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP31.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP32.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP33.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP34.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP35.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP36.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP37.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP38.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP39.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP4.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP40.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP41.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP42.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP43.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP44.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP45.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP46.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP47.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP48.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP49.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP5.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP50.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP51.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP52.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP53.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP54.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP55.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP56.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP57.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP58.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP59.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP6.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP7.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP8.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\CWP9.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\ECL_GUI.HTM"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeCommentReport\ECL_GUI\vt.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ECL_GUISetup\ECL_GUISetup.vdproj"
+                    BuildAction = "None"
+                />
+                <Folder RelPath = "ECL_GUISetup\Debug\" />
+                <File
+                    RelPath = "ECL_GUISetup\Release\ECL_GUISetup.msi"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ECL_GUISetup\Release\Setup.Exe"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ECL_GUISetup\Release\Setup.Ini"
+                    BuildAction = "None"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
